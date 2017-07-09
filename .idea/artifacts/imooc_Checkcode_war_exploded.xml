@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="imooc_Checkcode:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/imooc_Checkcode_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="imooc_Checkcode/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="imooc_Checkcode" />
+          <element id="library" level="project" name="apache-tomcat-7.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
